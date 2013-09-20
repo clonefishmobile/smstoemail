@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+xmlns:android="http://schemas.android.com/apk/res/android">
+<CheckBoxPreference
+ android:key="notif"
+ android:summary="Включите если хотите пересылать все сообщения на почту"
+ android:title="Перехватывать сообщения от всех">
+</CheckBoxPreference>
+<EditTextPreference
+ android:key="phone"
+ android:summary="Введите номер телефона для фильтрации"
+ android:title="Номер телефона для фильтра">
+</EditTextPreference>
+<EditTextPreference android:summary="Введите имя пользователя Вашего почтового ящика" android:title="Имя пользователя Gmail" android:key="username"/>
+<EditTextPreference android:summary="Введите пароль от Вашего почтового ящика" android:title="Пароль" android:key="password"/>
+<CheckBoxPreference android:key="inbox" android:summary="Помещать обработанные сообщения во Входящие" android:title="Помещать обработанные сообщения во Входящие"/>    
+</PreferenceScreen>
