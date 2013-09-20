@@ -1,4 +1,5 @@
-smstoemail
+SmsToEmail
 ==========
 
-SmsToEmail
+Приложение для перехвата смс-сообщении и отправке их на Email.
+
